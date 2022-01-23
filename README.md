@@ -27,19 +27,19 @@ How is the district summary affected?
 
 ![Fig 1. District Summary](https://github.com/InRegards2Pluto/School_District_Analysis/blob/21835b7fd2a862fd8e048fb23bb6b2e8c4464453/Resources/district_summary_df_initial.png)
 
-<figcaption><i>Fig 2. District Summary</i></figcaption>
+<figcaption><i>Fig 2. District Summary (THS Replaced)</i></figcaption>
 
-![Fig 2. District Summary](resources/2017tableRefactor.png)
+![Fig 2. District Summary (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/district_summary_df_fixed.png)
 
 ### School Summary
 How is the school summary affected?
 <figcaption><i>Fig 3. School Summary</i></figcaption>
 
-![Fig 3. School Summary](resources/2017tableRefactor.png)
+![Fig 3. School Summary](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_summary_initial.png)
 
-<figcaption><i>Fig 4. School Summary</i></figcaption>
+<figcaption><i>Fig 4. School Summary (THS Replaced)</i></figcaption>
 
-![Fig 4. School Summary](resources/2017tableRefactor.png)
+![Fig 4. School Summary (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_spending_range_fixed.png)
 
 How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
@@ -48,50 +48,50 @@ How does replacing the ninth-grade scores affect the following:
 Math and reading scores by grade
 <figcaption><i>Fig 5. Math Scores by Grade</i></figcaption>
 
-![Fig 5. Math Scores by Grade](resources/2017tableRefactor.png)
+![Fig 5. Math Scores by Grade](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_per_grade_math_initial.png)
 
-<figcaption><i>Fig 6. Math Scores by Grade</i></figcaption>
+<figcaption><i>Fig 6. Math Scores by Grade (THS Replaced)</i></figcaption>
 
-![Fig 6. Math Scores by Grade](resources/2017tableRefactor.png)
+![Fig 6. Math Scores by Grade (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_per_grade_math_fixed.png)
 Scores by school spending
 
 <figcaption><i>Fig 7. Reading Scores by Grade</i></figcaption>
 
-![Fig 7. Reading Scores by Grade](resources/2017tableRefactor.png)
+![Fig 7. Reading Scores by Grade](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_per_grade_reading_initial.png)
 
-<figcaption><i>Fig 8. Reading Scores by Grade</i></figcaption>
+<figcaption><i>Fig 8. Reading Scores by Grade (THS Replaced)</i></figcaption>
 
-![Fig 8. Reading Scores by Grade](resources/2017tableRefactor.png)
+![Fig 8. Reading Scores by Grade (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_per_grade_reading_fixed.png)
 
 ### Scores by School Spending
 Scores by school spending
 <figcaption><i>Fig 9. Scores by School Spending</i></figcaption>
 
-![Fig 9. Scores by School Spending](resources/2017tableRefactor.png)
+![Fig 9. Scores by School Spending](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_spending_range_initial.png)
 
-<figcaption><i>Fig 10. Scores by School Spending</i></figcaption>
+<figcaption><i>Fig 10. Scores by School Spending (THS Replaced)</i></figcaption>
 
-![Fig 10. Scores by School Spending](resources/2017tableRefactor.png)
+![Fig 10. Scores by School Spending (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_spending_range_fixed.png)
 
 ### Scores by School Size
 Scores by school size
 <figcaption><i>Fig 11. Scores by School Size</i></figcaption>
 
-![Fig 11.Scores by School Size](resources/2017tableRefactor.png)
+![Fig 11.Scores by School Size](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_size_initial.png)
 
-<figcaption><i>Fig 12. Scores by School Size</i></figcaption>
+<figcaption><i>Fig 12. Scores by School Size (THS Replaced)</i></figcaption>
 
-![Fig 12. Scores by School Size](resources/2017tableRefactor.png)
+![Fig 12. Scores by School Size (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_size_fixed.png)
 
 ### Scores by School Type
 Scores by school type
 <figcaption><i>Fig 13. Scores by School Type</i></figcaption>
 
-![Fig 13. Scores by School Type](resources/2017tableRefactor.png)
+![Fig 13. Scores by School Type](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_type_initial.png)
 
-<figcaption><i>Fig 14. Scores by School Type</i></figcaption>
+<figcaption><i>Fig 14. Scores by School Type (THS Replaced)</i></figcaption>
 
-![Fig 14. Scores by School Type](resources/2017tableRefactor.png)
+![Fig 14. Scores by School Type (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_type_fixed.png)
 
 ## School District Analysis Summary
 Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
