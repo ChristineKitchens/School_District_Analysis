@@ -1,7 +1,7 @@
 # School District Analysis
 
 ## Overview of School District Analysis
-The State Board of Education requests that the city school district prepare all stardardized test data for analysis. Data will be analyzed to provide insight about performance trends and patterns to inform decisions at the school and district level. Results will assist school board and superintendants in decisions regarding school budgets and priorities. In particular, the board is interested in relationships between student funding and standardized test scores.
+The State Board of Education requests that the city school district prepare all stardardized test data for analysis. Data will be analyzed to provide insight about performance trends and patterns to inform decisions at the school and district level. Results will assist school board and superintendants in decisions regarding school budgets and priorities.
 
 The following metrics were requested:
 
@@ -16,7 +16,7 @@ The following metrics were requested:
 9. The scores by school type
 
 
-Additionally, the school board observed evidence in student score data that indicate scores for 9th graders at Thomas High School have been altered. As such, math and reading scores for Thomas High School (THS) 9th graders are replaced with NaNs for the analysis. Descriptions of how the replacement impacted metrics is included in the report. Code script from which the following results were derived can be found in the [jupyter notebook for the project](PyCitySchools_Challenge.ipynb).
+Additionally, the school board observed evidence in student score data that indicates scores for 9th graders at Thomas High School (THS) have been altered. As such, math and reading scores for THS 9th graders are replaced with NaNs for the analysis. Descriptions of how the replacement impacted metrics is included in the report. Code script from which results were derived can be found in the [jupyter notebook for the project](PyCitySchools_Challenge.ipynb).
 
 ## School District Analysis Results
 
@@ -43,6 +43,7 @@ Additionally, the school board observed evidence in student score data that indi
   - The percent of students with passing math scores decreased by 0.08% (93.27% to 93.19%)
   - The percent of students with passing reading scores decreased by 0.29% (97.31% to 97.02%)
   - The overall percent of students with passing scores for both reading and math decreased by 0.32% (90.95% to 90.63%)
+
 <Tablecaption><i>Table 3. School Summary</i></Tablecaption>
 
 ![Table 3. School Summary](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_summary_initial.png)
@@ -66,6 +67,7 @@ Additionally, the school board observed evidence in student score data that indi
 
 ### Scores by Grade
 - Replacing 9th grade scores impacted scores by grade predictably. After the scores were replaced with NaNs, the 9th grade score for THS went from 83.6 for math and 83.7 for reading to have no record for either.
+  
 <Tablecaption><i>Table 7. Math Scores by Grade</i></Tablecaption>
 
 ![Table 7. Math Scores by Grade](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_per_grade_math_initial.png)
@@ -84,6 +86,8 @@ Additionally, the school board observed evidence in student score data that indi
 
 ### Scores by School Spending
 - Scores by school spending remained unchanged after the replacement.
+- Surprisingly, data indicated that schools that spent less on students actually yielded higher scores across the board.
+
 <Tablecaption><i>Table 11. Scores by School Spending</i></Tablecaption>
 
 ![Table 11. Scores by School Spending](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_spending_range_initial.png)
@@ -93,7 +97,9 @@ Additionally, the school board observed evidence in student score data that indi
 ![Table 12. Scores by School Spending (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_spending_range_fixed.png)
 
 ### Scores by School Size
-Scores by school size remained unchanged after the replacement.
+- Scores by school size remained unchanged after the replacement.
+- Data indicates that smaller schools outperformed larger schools. Assuming that smaller schools also have smaller class sizes, this results lends to the notion that smaller classes are more conducive to learning than large classes. Further data is needed.
+
 <Tablecaption><i>Table 13. Scores by School Size</i></Tablecaption>
 
 ![Table 13.Scores by School Size](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_size_initial.png)
@@ -103,7 +109,9 @@ Scores by school size remained unchanged after the replacement.
 ![Table 14. Scores by School Size (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_size_fixed.png)
 
 ### Scores by School Type
-Scores by school type remained unchanged after the replacement.
+- Scores by school type remained unchanged after the replacement.
+- Data overwhelmingly suggest that charter schools tend to outperform district schools. As seen in earlier sections, all top 5 performing schools are charter schools. Given that the charter schools also tended to have smaller school sizes compared to the district schools, this result is in alignment with discussions outlined in the previous section.
+
 <Tablecaption><i>Table 15. Scores by School Type</i></Tablecaption>
 
 ![Table 15. Scores by School Type](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_type_initial.png)
@@ -113,7 +121,12 @@ Scores by school type remained unchanged after the replacement.
 ![Table 16. Scores by School Type (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_type_fixed.png)
 
 ## School District Analysis Summary
-- Across all the requested metrics, replacing the Thomas High School 9th grade scores impacted the following:
+- Overall, data indicates three conclusions:
+  -  Charter schools outperform district schools
+  -  Smaller schools outperform larger schools
+  -  Schools with lower spending per student outperform schools with higher spending per student.
+-  Further analysis should be conducted to understand how the metrics of school type, size, and spending interrelate with one another. For example, do charter schools perform better because they are smaller? Does the smaller school size also correlate to smaller average class size? Additional data should be requested from schools.
+- Across all the requested metrics, replacing the Thomas High School 9th grade scores with NaNs impacted the following:
   - District Summary Data
     - The average math score decreased by 0.1 (79.0 to 78.9)
     - The percent of students with passing math scores decreased by 0.2% (75.0% to 74.8%)
