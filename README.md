@@ -26,6 +26,7 @@ Additionally, the school board observed evidence in student score data that indi
   - The percent of students with passing math scores decreased by 0.2% (75.0% to 74.8%)
   - The percent of students with passing reading scores decreased by 0.3% (86.0% to 85.7%)
   - The overall percent of students with passing scores for both reading and math decreased by 0.1% (65.0% to 64.9%)
+
 <Tablecaption><i>Table 1. District Summary</i></Tablecaption>
 
 ![Table 1. District Summary](https://github.com/InRegards2Pluto/School_District_Analysis/blob/21835b7fd2a862fd8e048fb23bb6b2e8c4464453/Resources/district_summary_df_initial.png)
