@@ -16,7 +16,7 @@ The following metrics were requested:
 9. The scores by school type
 
 
-Additionally, the school board noted evidence in student score spreadsheets indicate that grades for 9th graders at Thomas High School have been altered. As such, math and reading grades for Thomas High School (THS) 9th graders are replaced with NaNs for the analysis. Code script from which the following results were derived can be found in the [jupyter notebook for the project](PyCitySchools_Challenge.ipynb)
+Additionally, the school board observed evidence in student score data that indicate scores for 9th graders at Thomas High School have been altered. As such, math and reading scores for Thomas High School (THS) 9th graders are replaced with NaNs for the analysis. Descriptions of how the replacement impacted metrics is included in the report. Code script from which the following results were derived can be found in the [jupyter notebook for the project](PyCitySchools_Challenge.ipynb).
 
 ## School District Analysis Results
 
@@ -26,13 +26,13 @@ Additionally, the school board noted evidence in student score spreadsheets indi
   - The percent of students with passing math scores decreased by 0.2% (75.0% to 74.8%)
   - The percent of students with passing reading scores decreased by 0.3% (86.0% to 85.7%)
   - The overall percent of students with passing scores for both reading and math decreased by 0.1% (65.0% to 64.9%)
-<figcaption><i>Fig 1. District Summary</i></figcaption>
+<Tablecaption><i>Table 1. District Summary</i></Tablecaption>
 
-![Fig 1. District Summary](https://github.com/InRegards2Pluto/School_District_Analysis/blob/21835b7fd2a862fd8e048fb23bb6b2e8c4464453/Resources/district_summary_df_initial.png)
+![Table 1. District Summary](https://github.com/InRegards2Pluto/School_District_Analysis/blob/21835b7fd2a862fd8e048fb23bb6b2e8c4464453/Resources/district_summary_df_initial.png)
 
-<figcaption><i>Fig 2. District Summary (THS Replaced)</i></figcaption>
+<Tablecaption><i>Table 2. District Summary (THS Replaced)</i></Tablecaption>
 
-![Fig 2. District Summary (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/district_summary_df_fixed.png)
+![Table 2. District Summary (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/district_summary_df_fixed.png)
 
 ### School Summary
 - Given that the only changes in the data occurred for Thomas High School, changes to data in the school summary table only occurred in the record associated with that school.
@@ -43,72 +43,74 @@ Additionally, the school board noted evidence in student score spreadsheets indi
   - The percent of students with passing math scores decreased by 0.08% (93.27% to 93.19%)
   - The percent of students with passing reading scores decreased by 0.29% (97.31% to 97.02%)
   - The overall percent of students with passing scores for both reading and math decreased by 0.32% (90.95% to 90.63%)
-<figcaption><i>Fig 3. School Summary</i></figcaption>
+<Tablecaption><i>Table 3. School Summary</i></Tablecaption>
 
-![Fig 3. School Summary](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_summary_initial.png)
+![Table 3. School Summary](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_summary_initial.png)
 
-<figcaption><i>Fig 4. School Summary (THS Replaced)</i></figcaption>
+<Tablecaption><i>Table 4. School Summary (THS Replaced)</i></Tablecaption>
 
-![Fig 4. School Summary (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_summary_fixed.png)
+![Table 4. School Summary (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_summary_fixed.png)
 
-- In terms of how the replacement of the THS 9th grade scores impacted their performance relative to other schools, no observable chances were seen in ranking. Even after replacing the data and changes in THS score metrics, both the top 5 and bottom 5 performing schools (Fig XX and Fig XX, respectively) remained the same. Both with and without the 9th grade scores, THS ranked as the #2 performing school in the district.
-  - However, it's worth noting that, across the 15 schools, the margin between rankings is slim. For example, when looking at the % overall passing metric, the difference between the #1 performing school (Cabrera High School) and the #5 performing school (Pena High School) was only ~0.79%. Score data for THS 9th graders prior to replacement did not deviate far from scores for remaining grades (see Fig XX). Therefore, it's not surprising that their relative ranking didn't change. However, if the original data (i.e. the data before the alleged tampering to improve scores) deviated further from the other grades, it's possible that those scores were low enough to pull the school out of the top 5 performing schools, even if it was only 1-2 percent lower. This may have been the driving force behind the academic dishonesty. Unfortunately, until the original, unaltered data can be located, one can only speculate.
+### Relative Performance Across Schools
+- In terms of how the replacement of the THS 9th grade scores impacted their performance relative to other schools, no observable changes were seen in ranking. Even after replacing the data and changes in THS score metrics, both the top 5 and bottom 5 performing schools (Table 4 and Table 5, respectively) remained the same. 
+- Both with and without the 9th grade scores, THS ranked as the #2 performing school in the district.
+  - However, it's worth noting that, across the 15 schools, the margin between rankings is slim for upper rankings. For example, when looking at the % overall passing metric, the difference between the #1 performing school (Cabrera High School) and the #5 performing school (Pena High School) was only ~0.79%. Score data for THS 9th graders prior to replacement did not deviate far from scores for remaining grades (see Tables 7-10). Therefore, it's not surprising that their relative ranking didn't change. However, if the original data (i.e. the data before the alleged tampering) deviated further from the other grades at THS, it's possible that those scores were low enough to pull the school out of the top 5 performing schools, even if it was only 1-2 percent lower. This may have been the driving force behind the academic dishonesty. Unfortunately, until the original, unaltered data can be located, one can only speculate.
 
-<figcaption><i>Fig 3. Top 5 Performing Schools Based on % Overall Passing</i></figcaption>
+<Tablecaption><i>Table 5. Top 5 Performing Schools Based on % Overall Passing</i></Tablecaption>
 
-![Fig 3. Top 5 Performing Schools Based on % Overall Passing](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_summary_initial.png)
+![Table 5. Top 5 Performing Schools Based on % Overall Passing (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/0b9c1118d85d58e0392d56149f50344f6e485de3/Resources/top_5_fixed.png)
 
-<figcaption><i>Fig 4. Bottom 5 Performing Schools Based on % Overall Passing (THS Replaced)</i></figcaption>
+<Tablecaption><i>Table 6. Bottom 5 Performing Schools Based on % Overall Passing (THS Replaced)</i></Tablecaption>
 
-![Fig 4. Bottom 5 Performing Schools Based on % Overall Passing](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_summary_fixed.png)
+![Table 6. Bottom 5 Performing Schools Based on % Overall Passing (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/0b9c1118d85d58e0392d56149f50344f6e485de3/Resources/bottom_5_fixed.png)
 
 ### Scores by Grade
-- Replacing 9th grade scores impacted scores by grade predictably. After the scores were replaced with NaNs, the 9th grade score for THS went from XX for math and XX for reading to have no record for either.
-<figcaption><i>Fig 5. Math Scores by Grade</i></figcaption>
+- Replacing 9th grade scores impacted scores by grade predictably. After the scores were replaced with NaNs, the 9th grade score for THS went from 83.6 for math and 83.7 for reading to have no record for either.
+<Tablecaption><i>Table 7. Math Scores by Grade</i></Tablecaption>
 
-![Fig 5. Math Scores by Grade](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_per_grade_math_initial.png)
+![Table 7. Math Scores by Grade](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_per_grade_math_initial.png)
 
-<figcaption><i>Fig 6. Math Scores by Grade (THS Replaced)</i></figcaption>
+<Tablecaption><i>Table 8. Math Scores by Grade (THS Replaced)</i></Tablecaption>
 
-![Fig 6. Math Scores by Grade (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_per_grade_math_fixed.png)
+![Table 8. Math Scores by Grade (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_per_grade_math_fixed.png)
 
-<figcaption><i>Fig 7. Reading Scores by Grade</i></figcaption>
+<Tablecaption><i>Table 9. Reading Scores by Grade</i></Tablecaption>
 
-![Fig 7. Reading Scores by Grade](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_per_grade_reading_initial.png)
+![Table 9. Reading Scores by Grade](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_per_grade_reading_initial.png)
 
-<figcaption><i>Fig 8. Reading Scores by Grade (THS Replaced)</i></figcaption>
+<Tablecaption><i>Table 10. Reading Scores by Grade (THS Replaced)</i></Tablecaption>
 
-![Fig 8. Reading Scores by Grade (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_per_grade_reading_fixed.png)
+![Table 10. Reading Scores by Grade (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_per_grade_reading_fixed.png)
 
 ### Scores by School Spending
 - Scores by school spending remained unchanged after the replacement.
-<figcaption><i>Fig 9. Scores by School Spending</i></figcaption>
+<Tablecaption><i>Table 11. Scores by School Spending</i></Tablecaption>
 
-![Fig 9. Scores by School Spending](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_spending_range_initial.png)
+![Table 11. Scores by School Spending](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_spending_range_initial.png)
 
-<figcaption><i>Fig 10. Scores by School Spending (THS Replaced)</i></figcaption>
+<Tablecaption><i>Table 12. Scores by School Spending (THS Replaced)</i></Tablecaption>
 
-![Fig 10. Scores by School Spending (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_spending_range_fixed.png)
+![Table 12. Scores by School Spending (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_spending_range_fixed.png)
 
 ### Scores by School Size
 Scores by school size remained unchanged after the replacement.
-<figcaption><i>Fig 11. Scores by School Size</i></figcaption>
+<Tablecaption><i>Table 13. Scores by School Size</i></Tablecaption>
 
-![Fig 11.Scores by School Size](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_size_initial.png)
+![Table 13.Scores by School Size](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_size_initial.png)
 
-<figcaption><i>Fig 12. Scores by School Size (THS Replaced)</i></figcaption>
+<Tablecaption><i>Table 14. Scores by School Size (THS Replaced)</i></Tablecaption>
 
-![Fig 12. Scores by School Size (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_size_fixed.png)
+![Table 14. Scores by School Size (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_size_fixed.png)
 
 ### Scores by School Type
 Scores by school type remained unchanged after the replacement.
-<figcaption><i>Fig 13. Scores by School Type</i></figcaption>
+<Tablecaption><i>Table 15. Scores by School Type</i></Tablecaption>
 
-![Fig 13. Scores by School Type](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_type_initial.png)
+![Table 15. Scores by School Type](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_type_initial.png)
 
-<figcaption><i>Fig 14. Scores by School Type (THS Replaced)</i></figcaption>
+<Tablecaption><i>Table 16. Scores by School Type (THS Replaced)</i></Tablecaption>
 
-![Fig 14. Scores by School Type (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_type_fixed.png)
+![Table 16. Scores by School Type (THS Replaced)](https://github.com/InRegards2Pluto/School_District_Analysis/blob/01632983c491c1dcbeb546bf9777767be9b3a7cf/Resources/school_type_fixed.png)
 
 ## School District Analysis Summary
 - Across all the requested metrics, replacing the Thomas High School 9th grade scores impacted the following:
@@ -123,7 +125,8 @@ Scores by school type remained unchanged after the replacement.
     - The percent of students with passing math scores decreased by 0.08% (93.27% to 93.19%)
     - The percent of students with passing reading scores decreased by 0.29% (97.31% to 97.02%)
     - The overall percent of students with passing scores for both reading and math decreased by 0.32% (90.95% to 90.63%)
-- Despite these various changes at both district and individual school level, more metrics remained unchanged than changed. However, as discussed when reviewing the relative performance and ranking of the schools, the tampered data for the 9th graders did not deviate greatly from the untampered data for the 10th-12th graders. Therefore, even when replacing 9th grade data with NaNs, because 9th graders were still included in the total student count, any derivative metrics that didn't relate directly to scores were unchanged (e.g. spending per student and school size). Even metrics that did change did so minimally since the removed values were already similar to the remaining values, so mean values would not have changed greatly. It would ultimately be more informative to locate the untampered data for the THS 9th graders and then repeat the analysis.
+- Despite these various changes at both district and individual school level, more metrics remained unchanged than changed. The lack of change may have to do with the number of significant digits that various metrics were reported at, but changes would still be minimal even then.
+- However, as discussed when reviewing the relative performance and ranking of the schools, the tampered data for the 9th graders did not deviate greatly from the untampered data for the 10th-12th graders. Therefore, even when replacing 9th grade data with NaNs, because 9th graders were still included in the total student count, any derivative metrics that didn't relate directly to scores were unchanged (e.g. spending per student and school size). Even metrics that did change did so minimally since the removed values were already similar to the remaining values, so mean values would not have changed greatly. It would ultimately be more informative to locate the untampered data for the THS 9th graders and then repeat the analysis.
 
 ## Resources
 - Data Source: 
