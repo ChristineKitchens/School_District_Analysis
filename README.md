@@ -25,7 +25,7 @@ Using bulleted lists and images of DataFrames as support, address the following 
 How is the district summary affected?
 <figcaption><i>Fig 1. District Summary</i></figcaption>
 
-![Fig 1. District Summary](resources/2017tableRefactor.png)
+![Fig 1. District Summary](https://github.com/InRegards2Pluto/School_District_Analysis/blob/21835b7fd2a862fd8e048fb23bb6b2e8c4464453/Resources/district_summary_df_initial.png)
 
 <figcaption><i>Fig 2. District Summary</i></figcaption>
 
