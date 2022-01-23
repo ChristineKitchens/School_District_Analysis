@@ -144,7 +144,7 @@ Additionally, the school board observed evidence in student score data that indi
 
 ## Resources
 - Data Source: 
-  - [schools_complete.csv](https://github.com/InRegards2Pluto/School_District_Analysis/blob/f7e7f9cbd7c7a0a260407ab7c05c14d766b39f29/Resources/schools_complete.csv).
+  - [schools_complete.csv](https://github.com/InRegards2Pluto/School_District_Analysis/blob/f7e7f9cbd7c7a0a260407ab7c05c14d766b39f29/Resources/schools_complete.csv)
   - [students_complete.csv](https://github.com/InRegards2Pluto/School_District_Analysis/blob/f7e7f9cbd7c7a0a260407ab7c05c14d766b39f29/Resources/students_complete.csv)
   - [PyCitySchools_Challenge.ipynb](PyCitySchools_Challenge.ipynb)
 - Software: Jupyter Notebook
